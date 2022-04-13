@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    min-width: 300px;
+    min-height: 350px;
+    max-width: 600px;
+}
+
+.previus-operand {
+    display: flex;
+    background-color: gray;
+    border: 1px solid black;
+    grid-column: 1 / 5;
+    font-size: xx-large;
+    justify-content: right;
+    align-items: center;
+}
+
+.current-operand {
+    display: flex;
+    background-color: darkgray;
+    grid-column: 1 / 5;
+    font-size: x-large;
+    justify-content: right;
+    align-items: center;
+}
+
+.spanTwo {
+    grid-column: 1/4;
+}
+
+.longBut {
+    grid-column: 4;
+    grid-row: 6/8;
+
+}
+.numbers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px
+}
+
